@@ -1,5 +1,3 @@
-Here's the translation:
-
 ---
 
 # Bubble Sort
