@@ -1,45 +1,44 @@
+Here's the translation:
+
 ---
 
 # Bubble Sort
 
-Este repositório fornece uma explicação detalhada do **Bubble Sort**, um dos algoritmos de ordenação mais simples e conhecidos. O Bubble Sort é frequentemente utilizado para fins educacionais devido à sua simplicidade, embora não seja o mais eficiente para grandes conjuntos de dados.
+This repository provides a detailed explanation of **Bubble Sort**, one of the simplest and most well-known sorting algorithms. Bubble Sort is often used for educational purposes due to its simplicity, though it is not the most efficient for large datasets.
 
-## Descrição
+## Description
 
-O Bubble Sort é um algoritmo de ordenação que funciona iterando repetidamente pela lista a ser ordenada, comparando cada par de elementos adjacentes e trocando-os se estiverem na ordem errada. O processo é repetido até que a lista esteja ordenada.
+Bubble Sort is a sorting algorithm that works by repeatedly iterating through the list to be sorted, comparing each pair of adjacent elements and swapping them if they are in the wrong order. The process is repeated until the list is sorted.
 
-## Funcionamento
+## How It Works
 
-1. **Iteração Inicial:** O algoritmo começa no início da lista e percorre todos os elementos.
+1. **Initial Iteration:** The algorithm starts at the beginning of the list and goes through all the elements.
 
-2. **Comparação e Troca:** Para cada par de elementos adjacentes, se o primeiro elemento for maior que o segundo, eles são trocados.
+2. **Comparison and Swap:** For each pair of adjacent elements, if the first element is larger than the second, they are swapped.
 
-3. **Passagem Completa:** Após uma passagem completa pela lista, o maior elemento é colocado em sua posição correta.
+3. **Complete Pass:** After a full pass through the list, the largest element is placed in its correct position.
 
-4. **Repetição:** O processo é repetido para o restante da lista, ignorando a última posição (já ordenada), até que nenhuma troca seja necessária durante uma passagem completa.
+4. **Repetition:** The process is repeated for the remaining list, ignoring the last (already sorted) position, until no swaps are needed during a full pass.
 
-## Características
+## Characteristics
 
-- **Complexidade de Tempo:**
-  - **Pior Caso:** \(O(n^2)\)
-  - **Melhor Caso:** \(O(n)\), quando a lista já está ordenada
-  - **Caso Médio:** \(O(n^2)\)
+- **Time Complexity:**
+  - **Worst Case:** \(O(n^2)\)
+  - **Best Case:** \(O(n)\), when the list is already sorted
+  - **Average Case:** \(O(n^2)\)
 
-- **Complexidade de Espaço:** \(O(1)\), pois é um algoritmo in-place que não requer espaço adicional para a lista.
+- **Space Complexity:** \(O(1)\), as it is an in-place algorithm that does not require additional space for the list.
 
-- **Estabilidade:** O Bubble Sort é estável, preservando a ordem relativa de elementos iguais.
+- **Stability:** Bubble Sort is stable, preserving the relative order of equal elements.
 
-- **Simples de Implementar:** É fácil de entender e implementar, mas não é eficiente para listas grandes devido à sua complexidade de tempo quadrática.
+- **Simple to Implement:** It is easy to understand and implement but is not efficient for large lists due to its quadratic time complexity.
 
-## Aplicações
+## Applications
 
-Embora o Bubble Sort não seja utilizado em aplicações práticas para ordenação de grandes listas devido à sua ineficiência, ele é frequentemente usado como uma introdução ao conceito de algoritmos de ordenação em cursos de ciência da computação.
+Although Bubble Sort is not used in practical applications for sorting large lists due to its inefficiency, it is often used as an introduction to the concept of sorting algorithms in computer science courses.
 
-## Contribuições
+## Contributions
 
-Sinta-se à vontade para contribuir com este repositório, sugerindo melhorias na documentação ou implementações alternativas. 
-
+Feel free to contribute to this repository by suggesting improvements to the documentation or alternative implementations.
 
 ---
-
-Esse README fornece uma visão geral clara do Bubble Sort e é adequado para um repositório do GitHub. Se precisar de mais alguma coisa, é só avisar!
